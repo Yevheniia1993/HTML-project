@@ -1,0 +1,638 @@
+#header{
+    background: url(1.png);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.imgclass{
+    margin-top: 70px;
+    }
+.text1{
+    color: white;
+    text-align: center;
+    font-size: 49px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    margin-top: 75px;
+}
+.text3{
+    font-size: 49px;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+.divone{
+    width: 300px;
+    margin: 0 auto;
+}
+.classtwo{
+    width: 336px;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+.classthree{
+    background: white;
+    width: 337px;
+    height: 337px;
+    box-shadow: 0px 10px 13px -7px #0000003b, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+}
+.classinput{
+    margin-top: 26px;
+    margin-left: 33px;
+    width: 264px;
+    height: 34px;
+    padding-left: 15px;
+    font-size: 15px;
+    border-color: rgb(232, 232, 232);
+}
+.imgclass1 img{
+    margin-top: 30px;
+    width: 100%;
+}
+.text2{
+    padding-top: 20px;
+    width: 195px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(147, 142, 142);
+
+}
+.classbutton{
+    padding-top: 30px;
+    width: 190px;
+    margin: 0 auto;
+
+}
+.button1{
+    background: rgb(34, 125, 211);
+    color: white;
+    width: 191px;
+    height: 44px;
+    font-size: 26px;
+    border: 0;
+}
+#documentsPhoto{
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+}  
+.divimg{
+    display: inline-block;
+    width: 128px;
+}
+.divtext{
+    display: inline-block;
+    width: 249px;
+}
+.doc{
+  line-height: 2.5em;
+  font-size: 27px;
+}
+.text{
+    font-size: 14px;
+    color: rgb(111, 110, 110);
+    line-height: 1.5em;
+}
+.doc1{
+    display: inline-block;
+    width: 44%;
+}
+.doc2{
+    display: inline-block;
+    width: 49%;
+}
+#heading{
+    background: url(7.png);
+    height: 1347px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+.HeadingImg{
+    margin-left: 22%;
+
+}
+.HeadingText{
+    color: white;
+    font-size: 39px;
+    width: 27%;
+    margin: 0 auto;
+    margin-top: -330px;
+    margin-left: 40%;
+}
+.HeadingTextOne{
+    color: white;
+    font-size: 14px;
+    width: 38%;
+    margin: 0 auto;
+    margin-top: 35px;
+    line-height: 1.5em;
+}
+.HeadingOne{
+    display: flex;
+    justify-content: space-around;
+    width: 78%;
+    margin-left: 2%;
+    margin-top: 30%;
+}
+.HeadingTextThree{
+    width: 429px;
+    margin-left: 4%;
+}
+.HTTone{
+    color: white;
+    font-size: 39px;
+}
+.HTTtwo{
+    color: white;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-top: 18px;
+}
+.Button{
+    width: 200px;
+    height: 55px;
+    font-size: 27px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    border-style: double;
+    margin-top: 18px;
+}
+#map{
+    background:url(10.png);
+    height: 505px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    
+}
+.circle{
+    width: 435px;
+    height: 332px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    opacity: 0.7;
+    padding-top: 103px;
+}
+.Form input{
+    display: block;
+    margin-top: 10px;
+    width: 258px;
+    height: 31px;
+    font-size: 14px;
+    padding-left: 17px;
+}
+.Form{
+    width:280px ;
+    margin: 0 auto;
+}
+.Form textarea{
+    margin-top: 10px;
+    width: 258px;
+    height: 81px;
+    font-size: 14px;
+    padding-left: 17px;
+}
+.ImgDiv{
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 19px;
+    position: relative;
+    z-index: 2 ;
+}
+#futer{
+    height: 32px;
+    background: rgba(67, 159, 109);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+}
+.DivForm{
+    margin-top: -330px;
+}
+@media(min-width:320px) and (max-width:460px){
+    
+    .HeadingImg{
+        margin-left: 0px;  
+        margin-top: -17%;  
+    }
+    .HeadingImg img{
+        width: 41%;
+        margin-top: 5%;
+    }
+    .doc1 {
+        width: 63%;
+    }
+    .divtext{
+        width: 109px;
+    }
+    .doc{
+        font-size: 20px;
+    }
+    .divimg img{
+        width: 50%;
+    }
+    #documentsPhoto{
+        height: 293px;
+        margin-top: 113px;
+    }
+    .classthree{
+        width: 320px;
+        height: 321px;
+    }
+    .text1{
+        font-size: 37px;
+        margin-top: 38px;
+    }
+    .text3{
+        font-size: 37px;
+    }
+    .classinput{
+        margin-left: 20px;
+    }
+    .classbutton{
+        padding-top: 15px;
+    }
+    .circle{
+        width: 314px;
+        height: 208px;
+        padding-top: 126px;
+    }
+    .HeadingText{
+        font-size: 23px;
+        margin-top: -136px;
+        margin-left: 44%;
+    }
+    .HeadingTextOne{
+        width: 90%;
+        margin-top: 25px;
+    }
+    .HeadingOne{
+        margin-top: 15%;
+        margin-left: 3%;
+        flex-direction: column;
+        width: 90%;
+    }
+    .HeadingImgTwo{
+        width: 37%;
+        height: 16%;
+        margin-top: 44%;
+        margin-left: -3%;
+    }
+    .HTTone{
+        font-size: 23px;
+        margin-top: 5%;
+    }
+    .HTTtwo{
+    margin-top: 14%;
+    position: relative;
+    z-index: 2;
+    margin-left: -24%;
+    }
+    .Button{
+        width: 130px;
+    height: 35px;
+    font-size: 20px;
+    margin-left: -31%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    }
+    #heading{
+        height: 50%;
+    }
+    .HeadingTextThree{
+        width: 80%;
+        margin-left: 72px;
+        text-align: center;
+        margin-top: -32%;
+    }
+    .Form{
+        padding-top: 26%;
+        padding-left: 14%;
+        width: 270px;
+    }
+    .Form input{
+        width: 200px;
+    }
+    .Form textarea{
+        width: 200px;
+    }
+    .classtwo{
+        width: 320px;
+    }
+    #map{
+        padding-top: 46px;
+        height: 350px;
+    }
+    .DivForm{
+        margin-top: -373px;
+    }
+    .ImgDiv{
+        margin-top: 2px;
+    }
+    .ImgDiv Img{
+        width: 80%;
+        margin-left: 11%;
+    }
+}
+
+@media(min-width:461px) and (max-width:565px){
+
+    .text1{
+        font-size: 35px;
+    }
+    .divtext{
+        width: 90%;
+    }
+    .HeadingImg Img{
+        width: 70%;
+        margin-left: -20%;
+        margin-top: -15%;
+    }
+    .HeadingText{
+        margin-top: -178px;
+        width: 60%;
+        margin-left: 23%;
+    }
+    .HeadingTextOne{
+        width: 80%;
+    }
+    .text{
+        width: 90%;
+    }
+    .doc1{
+        width: 49%;
+
+    }
+    .doc2{
+        width: 49%;
+    }
+    #documentsPhoto{
+        width: 85%;
+        height: 350px;
+        padding-left: 13%;
+    }
+    .classtwo{
+        margin-top: 36px;
+    }
+    #heading{
+        height: 900px;
+    }
+    .HeadingImgTwo{
+        width: 38%;
+        height: 50%;
+    }
+    .HTTone{
+        margin-left: 43%;
+    }
+    .HeadingTextThree{
+        margin-left: -28%;
+        width: 95%;
+    }
+    .HeadingOne{
+        margin-top: 25%;
+        width: 91%;
+    }
+    .Button{
+        width: 177px;
+        height: 47px;
+        margin-top: 28px;
+        margin-left: 26%;
+    }
+    #map{
+        height: 414px;
+        padding-top: 13px;
+    }
+    .circle{
+        width: 420px;
+        height: 307px;
+    }
+
+}
+@media(min-width:566px) and (max-width:765px){
+    .divtext{
+        width: 90%;
+    }
+    #documentsPhoto{
+        margin-left: 24%;
+    }
+    #heading{
+        padding-top: 36px;
+        height: 980px;
+    }
+    .HeadingImg Img{
+        width: 66%;
+    }
+    .HeadingImg{
+        margin-left: 0%;
+    }
+    .HeadingText{
+        width: 52%;
+        margin-top: -47%;
+        margin-left: 30%;
+    }
+    .HeadingTextOne{
+        width: 85%;
+    }
+    .HeadingOne{
+        width: 94%;
+        margin-top: 37%;
+    }
+    .HeadingImgTwo{
+        width: 41%;
+        height: 50%;
+        margin-top: -4%;
+    }
+    .HeadingTextThree{
+        width: 99%;
+        margin-top: -10%;
+    }
+    .HTTone{
+        margin-left: -4%;
+        font-size: 33px;
+    }
+    .HTTtwo{
+        margin-top: 18px;
+    }
+    .Button{
+        width: 195px;
+    height: 50px;
+    }
+
+}
+@media(min-width:766px) and (max-width:998px){
+    .HeadingImg{
+        margin-left: 0%;
+    }
+    .HeadingText{
+        width: 40%;
+        margin-left: 35%;
+    }
+    .HeadingTextOne{
+        width: 67%;
+    }
+    #heading{
+        height: 1079px;
+    }
+    .HeadingImgTwo{
+        width: 43%;
+        height: 100%;
+    }
+    .HeadingTextThree{
+        width: 99%;
+        margin-left: 7%;
+    }
+    .HeadingOne{
+        width: 98%;
+        margin-left: -9%;
+        margin-top: 25%;
+    }
+    #map{
+        height: 472px;
+        padding-top: 36px;
+    }
+
+}
+@media(min-width:998px) and (max-width:1200px){
+    #documentsPhoto{
+        height: 266px;
+        width: 89%;
+        padding-left: 11%;
+    }
+    .HeadingImg{
+        margin-left: 13%;
+    }
+    .HeadingText{
+        width: 40%;
+        margin-left: 35%;
+    }
+    .HeadingTextOne{
+        width: 54%;
+    }
+    #heading{
+        height: 1150px;
+    }
+    .HeadingImgTwo{
+        width: 42%;
+        height: 100%;
+    }
+    .HeadingTextThree{
+        width: 99%;
+        margin-left: 2%;
+    }
+    .HeadingOne{
+        width: 98%;
+        margin-left: -9%;
+        margin-top: 21%;
+    }
+    #map{
+        height: 472px;
+        padding-top: 36px;
+    }
+   
+}
+@media(min-width:1201px) and (max-width:1600px){
+    .HeadingOne{
+        width: 66%;
+    }
+    .HeadingImgTwo{
+        width: 45%;
+    }
+    #heading{
+        height: 1400px;
+    }  
+    #documentsPhoto{
+        padding-left: 3%;
+    }  
+}
+@media(min-width:1601px) and (max-width:1920px){
+    .imgclass{
+        width: 350px;
+        height: 350px;
+    }
+    #documentsPhoto{
+        margin-top: 227px;
+        height: 365px;
+        
+    }
+    .doc{
+        font-size: 34px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .doc1{
+        width: 44%;
+    }
+    .divimg{
+        width: 155px;
+    }
+    .divimg Img{
+        width: 87%;
+    }
+    #heading{
+        height: 1600px;
+        padding-top: 195px;
+    }
+    .HeadingTextOne{
+        font-size: 20px;
+    }
+    .HTTtwo{
+        font-size: 20px;
+    }
+    .HeadingTextThree {
+        width: 535px;
+        margin-left: -17%;
+    }
+    .HeadingOne{
+        margin-top: 23%;
+    }
+    .Button{
+        margin-top: 60px;
+    }
+    .circle {
+        width: 535px;
+        height: 432px;
+    }
+    #map{
+        height: 576px;
+        padding-top: 110px;
+    }
+    .Form input{
+        width: 333px;
+        height: 44px;
+        font-size: 24px;
+    }
+    .Form{
+        width: 336px;
+        margin-top: -23%;
+    }
+    .Form textarea{
+        width: 333px;
+        height: 152px;
+        font-size: 24px;
+
+    }
+    .ImgDiv Img{
+        width: 128%;
+    }
+    .HeadingImg{
+        margin-left: 26%;
+    }
+        
+
+}
